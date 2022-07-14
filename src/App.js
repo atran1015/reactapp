@@ -1,4 +1,6 @@
 import './App.css';
+import TableDisplay from './components/displayTable.js'
+//import data from './assets/DOW.json'
 
 function App() {
   
@@ -6,7 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Hello world!</p>
-      </header>
+        
+        <TableDisplay/>
+      </header>    
     </div>
   );
 }
